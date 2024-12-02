@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cLHevEyHf6w=",
+  "dgSpecHash": "0EY2NP+G2Hg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\jtlfu\\OneDrive\\Desktop\\SPC\\COP2839\\LibraryCatalog\\LibraryCatalog.csproj",
+  "projectFilePath": "c:\\Users\\jtlfu\\OneDrive\\Desktop\\SPC\\COP2839\\LibraryCatalog\\LibraryCatalog.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jtlfu\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\jtlfu\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

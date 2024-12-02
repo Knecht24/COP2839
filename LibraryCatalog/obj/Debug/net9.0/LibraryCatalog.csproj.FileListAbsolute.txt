@@ -328,3 +328,4 @@ C:\Users\jtlfu\OneDrive\Desktop\SPC\COP2839\LibraryCatalog\obj\Debug\net9.0\refi
 C:\Users\jtlfu\OneDrive\Desktop\SPC\COP2839\LibraryCatalog\obj\Debug\net9.0\LibraryCatalog.pdb
 C:\Users\jtlfu\OneDrive\Desktop\SPC\COP2839\LibraryCatalog\obj\Debug\net9.0\LibraryCatalog.genruntimeconfig.cache
 C:\Users\jtlfu\OneDrive\Desktop\SPC\COP2839\LibraryCatalog\obj\Debug\net9.0\ref\LibraryCatalog.dll
+c:\Users\jtlfu\OneDrive\Desktop\SPC\COP2839\LibraryCatalog\obj\Debug\net9.0\LibraryCatalog.sourcelink.json
