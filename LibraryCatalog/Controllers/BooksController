@@ -1,8 +1,5 @@
-using System;
 using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using LibraryCatalog.Data;
 using LibraryCatalog.Models;
 
@@ -16,14 +13,10 @@ namespace LibraryCatalog.Controllers
         {
             _context = context;
         }
-        public async Task<IActionResult> Index(string searchString)
+        public async Task<IActionResult> Index()
         {
-            var books = _context.Books != null ? await _context.Books.ToListAsync() : new List<Book>();
-            if (!string.IsNullOrEmpty(searchString))
-            {
-                books = books.Where(base => b.Title.Contains(searchString) || b.Author.Contains(searchString));
-            }
-            return View(await books.ToListAsync());
+            var books = _context.Books.ToList();
+            return View(books);
         }
         public async Task<IActionResult> Details(int? id)
         {

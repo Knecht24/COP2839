@@ -26,7 +26,7 @@
         </tr>
     </thread>
     <tbody>
-        @if (!Model.Any())
+        @if (Model != null && Model.Any())
         {
             <tr>
                 <td colspan="6" class="text-center">No books found.</td>
