@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\jtlfu\\OneDrive\\Desktop\\SPC\\COP2839\\LibraryCatalog\\LibraryCatalog.csproj": {}
+    "C:\\Users\\jtlfu\\OneDrive\\Desktop\\SPC\\COP2839\\LibraryCatalog\\LibraryCatalog.csproj": {}
   },
   "projects": {
-    "c:\\Users\\jtlfu\\OneDrive\\Desktop\\SPC\\COP2839\\LibraryCatalog\\LibraryCatalog.csproj": {
+    "C:\\Users\\jtlfu\\OneDrive\\Desktop\\SPC\\COP2839\\LibraryCatalog\\LibraryCatalog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\jtlfu\\OneDrive\\Desktop\\SPC\\COP2839\\LibraryCatalog\\LibraryCatalog.csproj",
+        "projectUniqueName": "C:\\Users\\jtlfu\\OneDrive\\Desktop\\SPC\\COP2839\\LibraryCatalog\\LibraryCatalog.csproj",
         "projectName": "LibraryCatalog",
-        "projectPath": "c:\\Users\\jtlfu\\OneDrive\\Desktop\\SPC\\COP2839\\LibraryCatalog\\LibraryCatalog.csproj",
+        "projectPath": "C:\\Users\\jtlfu\\OneDrive\\Desktop\\SPC\\COP2839\\LibraryCatalog\\LibraryCatalog.csproj",
         "packagesPath": "C:\\Users\\jtlfu\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\jtlfu\\OneDrive\\Desktop\\SPC\\COP2839\\LibraryCatalog\\obj\\",
+        "outputPath": "C:\\Users\\jtlfu\\OneDrive\\Desktop\\SPC\\COP2839\\LibraryCatalog\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
