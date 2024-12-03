@@ -28,7 +28,7 @@ app.UseEndpoints(endpoints =>
         pattern: "{controller=Home}/{action=Index}/{id?}");
     _ = endpoints.MapControllerRoute(
         name: "Create",
-        pattern: "{controller=Home}/{action=Books}/{Create}");
+        pattern: "{controller=Books}/{action=Create}/{id?}");
 });
 
 app.UseAuthorization();
