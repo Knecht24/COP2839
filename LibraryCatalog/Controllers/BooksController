@@ -18,39 +18,6 @@ namespace LibraryCatalog.Controllers
             var books = _context.Books.ToList();
             return View(books);
         }
-        public IActionResult AddSampleData()
-        {
-            if(!_context.Books.Any())
-            {
-                var sampleBooks = new List<Book>
-                {
-                    new Book
-                    {
-                        Title = "The Rise and Fall of the Roman Empire",
-                        Author = "Edward Gibbon",
-                        Genre = "Non-fiction",
-                        PublishedDate = new DateTime(1789)
-                    },
-                    new Book
-                    {
-                        Title = "A Distant Mirror: The Calamitous 14th Century",
-                        Author = "Barbara Tuchman",
-                        Genre = "Non-fiction",
-                        PublishedDate = new DateTime(1978)
-                    },
-                    new Book
-                    {
-                        Title = "Imperial Twilight: The Opium War and the End of China's Last Golden Age",
-                        Author = "Stephen R. Platt",
-                        Genre = "Non-fiction",
-                        PublishedDate = new DateTime(2018)
-                    }
-                };
-                _context.Books.AddRange(sampleBooks);
-                _context.SaveChanges();
-            }
-            return RedirectToAction("Index");
-        }
         public async Task<IActionResult> Details(int? id)
         {
             if(id == null)

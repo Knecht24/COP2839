@@ -1,4 +1,5 @@
 using LibraryCatalog.Data;
+using LibraryCatalog.Models;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,6 +10,21 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<LibraryContext>(options => options.UseSqlite(builder.Configuration.GetConnectionString("LibraryContext")));
 
 var app = builder.Build();
+
+using (var scope = app.Services.CreateScope())
+{
+    var context = scope.ServiceProvider.GetRequiredService<LibraryContext>();
+    if (!context.Books.Any())
+    {
+        var sampleBooks = new List<Book>
+        {
+            new Book { Title = "The Rise and Fall of the Roman Empire", Author = "Edward Gibbon", Genre = "Non-fiction", PublishedDate = new DateTime(1789)},
+            new Book { Title = "A Distant Mirror: The Calamitous 14th Century", Author = "Barbara Tuchman", Genre = "Non-fiction", PublishedDate = new DateTime(1978)},
+        };
+        context.Books.AddRange(sampleBooks);
+        context.SaveChanges();
+    }
+}
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
