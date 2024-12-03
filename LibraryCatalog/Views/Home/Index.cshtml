@@ -28,13 +28,8 @@
     <tbody>
         @if (Model != null && Model.Any())
         {
-            <tr>
-                <td colspan="6" class="text-center">No books found.</td>
-            </tr>
-        }
-        else
-        {
-            @foreach (var book in Model)
+            <ul>
+                @foreach (var book in Model)
             {
                 <tr>
                     <td>@book.Id</td>
@@ -49,6 +44,11 @@
                     </td>
                 </tr>                
             }
+            </ul>
+        }
+        else
+        {
+            <p>No BooksController available</p>
         }
     </tbody>
 </table>
