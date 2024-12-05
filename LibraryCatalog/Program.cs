@@ -14,6 +14,7 @@ var app = builder.Build();
 using (var scope = app.Services.CreateScope())
 {
     var context = scope.ServiceProvider.GetRequiredService<LibraryContext>();
+    context.Database.EnsureDeleted();
     context.Database.EnsureCreated();
     if (!context.Books.Any())
     {
