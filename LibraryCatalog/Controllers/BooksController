@@ -13,10 +13,16 @@ namespace LibraryCatalog.Controllers
         {
             _context = context;
         }
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString)
         {
-            var books = _context.Books.ToList();
-            return View(books);
+            var books = from b in _context.Books
+                        select b;
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                books = books.Where(base => b.Title.Contains(searchString) || b.Author.Contains(searchString));
+                ViewData["SearchString"] = searchString;
+            }
+            return View(await books.ToListAsync());
         }
         public async Task<IActionResult> Details(int? id)
         {

@@ -27,8 +27,7 @@
     <tbody>
         @if (Model != null && Model.Any())
         {
-            <ul>
-                @foreach (var book in Model)
+            @foreach (var book in Model)
             {
                 <tr>
                     <td>@book.Id</td>
@@ -43,7 +42,6 @@
                     </td>
                 </tr>                
             }
-            </ul>
         }
         else
         {
