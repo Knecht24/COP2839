@@ -37,14 +37,14 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseRouting();
 
+app.UseAuthorization();
+
 app.UseEndpoints(endpoints =>
 {
-    _ = endpoints.MapControllerRoute(
+    endpoints.MapControllerRoute(
         name: "default",
         pattern: "{controller=Home}/{action=Index}/{id?}");
 });
-
-app.UseAuthorization();
 
 app.MapStaticAssets();
 
