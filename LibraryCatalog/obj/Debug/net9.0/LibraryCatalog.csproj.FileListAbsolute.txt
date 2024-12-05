@@ -246,6 +246,7 @@ C:\Users\jtlfu\OneDrive\Desktop\SPC\COP2839\LibraryCatalog\obj\Debug\net9.0\Libr
 C:\Users\jtlfu\OneDrive\Desktop\SPC\COP2839\LibraryCatalog\obj\Debug\net9.0\LibraryCatalog.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\jtlfu\OneDrive\Desktop\SPC\COP2839\LibraryCatalog\obj\Debug\net9.0\LibraryCatalog.RazorAssemblyInfo.cache
 C:\Users\jtlfu\OneDrive\Desktop\SPC\COP2839\LibraryCatalog\obj\Debug\net9.0\LibraryCatalog.RazorAssemblyInfo.cs
+C:\Users\jtlfu\OneDrive\Desktop\SPC\COP2839\LibraryCatalog\obj\Debug\net9.0\LibraryCatalog.sourcelink.json
 C:\Users\jtlfu\OneDrive\Desktop\SPC\COP2839\LibraryCatalog\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\jtlfu\OneDrive\Desktop\SPC\COP2839\LibraryCatalog\obj\Debug\net9.0\scopedcss\bundle\LibraryCatalog.styles.css
 C:\Users\jtlfu\OneDrive\Desktop\SPC\COP2839\LibraryCatalog\obj\Debug\net9.0\scopedcss\projectbundle\LibraryCatalog.bundle.scp.css
@@ -328,4 +329,3 @@ C:\Users\jtlfu\OneDrive\Desktop\SPC\COP2839\LibraryCatalog\obj\Debug\net9.0\refi
 C:\Users\jtlfu\OneDrive\Desktop\SPC\COP2839\LibraryCatalog\obj\Debug\net9.0\LibraryCatalog.pdb
 C:\Users\jtlfu\OneDrive\Desktop\SPC\COP2839\LibraryCatalog\obj\Debug\net9.0\LibraryCatalog.genruntimeconfig.cache
 C:\Users\jtlfu\OneDrive\Desktop\SPC\COP2839\LibraryCatalog\obj\Debug\net9.0\ref\LibraryCatalog.dll
-c:\Users\jtlfu\OneDrive\Desktop\SPC\COP2839\LibraryCatalog\obj\Debug\net9.0\LibraryCatalog.sourcelink.json
